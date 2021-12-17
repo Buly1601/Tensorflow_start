@@ -1,4 +1,4 @@
-### PIZZA OR STEAK RECOGNIZER
+# PIZZA OR STEAK RECOGNIZER
 ## GOALS
 - Understanding and apply the following:
   - Convolutional Layers
@@ -17,6 +17,7 @@
 1. DATASET
 For this proyect, a minimized version of [Food 101](https://www.kaggle.com/dansbecker/food-101) dataset was used, containing only [pizza and steak](https://storage.googleapis.com/ztm_tf_course/food_vision/pizza_steak.zip). The design of the neural network, yet to be tuned, is as follows:
 
+![first_approach](https://user-images.githubusercontent.com/66335475/146471796-4cb133e4-77f3-4e7c-a02f-4198a668e994.png)
 
 2. BASELINE MODEL
 To start this project, a baseline neural network was created, from that baseline, the goal was to surpass the accuracy on the validation set (in this case the validation set was the test set, not very good practice I know...), the shape of this neural network is shaped as follows:
@@ -30,3 +31,12 @@ Observing the base model, 99.20% is a tough acuuracy value to beat... Yet some t
 
 ![learning_rate_graph](https://user-images.githubusercontent.com/66335475/146471235-fc5190aa-b09c-4a59-a72e-f0d332651405.png)
 
+The architecture of the model itself was not changed and the end result was 99.47% cross-validation accuracy, 0.20% higer than the baseline!
+
+Both models were compared and this comparation looks like this:
+
+![accuracy_models](https://user-images.githubusercontent.com/66335475/146471616-284c9391-7f24-4bff-826c-83620ad5751d.png)
+
+NEURAL NETWORK TRAINING: SUCCESS
+
+learned from: "Zero to mastery Tensorflow Developper Certificate in 2022"
