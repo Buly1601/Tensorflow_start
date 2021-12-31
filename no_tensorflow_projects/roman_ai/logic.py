@@ -1,11 +1,8 @@
 from roman import *
 from nn import *
 import matplotlib.pyplot as plt
-import sys
-import os
 from PIL import Image
 import random
-import time
 
 def train_test_vals():
     """ Return the train and test set of values """
