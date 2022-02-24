@@ -24,5 +24,9 @@ Behind this problem lies an ocean of possible approaches, the one taken in this 
   
 The logic used in this proyect was to find which algorithm worked best with the sentences, in this case was GRU, to implement the hybrid models, observing useful and non-useful information to teach the AI RELEVANT information. As we saw, characters do not help at all, but indexing and sentences worked perfectly.
 
+## Final model overview
+
+![download](https://user-images.githubusercontent.com/66335475/155457010-7d8796b3-9812-4600-b525-628f3228a87a.png)
+
 
  
